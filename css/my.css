@@ -1,0 +1,52 @@
+html {
+  font-size: 1em;
+}
+
+body {
+  background-image: url('../img/dark_wood_@2X.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  color: #999;
+}
+
+h1, h2 {
+font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+  font-variant: small-caps;
+  letter-spacing: .15em;
+  border-bottom: solid 2px #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 40px 0;
+  color: #ccc;
+}
+
+.navbar-inverse {
+  background-image: url('../img/dark_wall_@2X.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ul li a {
+  font-size: 1.2em;
+  color: #999;
+}
+
+#me {
+  width: 100%;
+}
+
+.icon {
+  width: 60%;
+  margin: auto;
+  border: solid 2px #999;
+  box-shadow: 0 0 .5em #fff;
+}
+
+.col-md-3 p {
+  text-align: left;
+}
