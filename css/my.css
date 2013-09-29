@@ -25,28 +25,68 @@ h1 {
   color: #ccc;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 .navbar-inverse {
   background-image: url('../img/dark_wall_@2X.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-ul li a {
+.nav {
+  margin-top: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
   font-size: 1.2em;
   color: #999;
 }
 
 #me {
   width: 100%;
+  border: solid 2px #999;
+}
+
+.intro {
+  margin-bottom: 85px;
 }
 
 .icon {
-  width: 60%;
-  margin: auto;
+  width: 90%;
   border: solid 2px #999;
   box-shadow: 0 0 .5em #fff;
+  margin-right: 10px;
 }
 
-.col-md-3 p {
-  text-align: left;
+.logo {
+  padding-left: 0px;
 }
+
+.abridged {
+  margin-bottom: 75px;
+}
+
+.projects {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.projects h2 {
+  margin-bottom: 40px;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
