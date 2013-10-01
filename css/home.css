@@ -1,0 +1,137 @@
+/* css stolen from bootstrap */
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11 {
+  float: left;
+}
+
+.col-md-1 {
+  width: 8.333333333333332%;
+}
+.col-md-2 {
+  width: 16.666666666666664%;
+}
+.col-md-3 {
+  width: 25%;
+}
+.col-md-4 {
+  width: 33.33333333333333%;
+}
+.col-md-5 {
+  width: 41.66666666666667%;
+}
+.col-md-6 {
+  width: 50%;
+}
+.col-md-7 {
+  width: 58.333333333333336%;
+}
+.col-md-8 {
+  width: 66.66666666666666%;
+}
+.col-md-9 {
+    width: 75%;
+}
+.col-md-10 {
+  width: 83.33333333333334%;
+}
+.col-md-11 {
+  width: 91.66666666666666%;
+}
+.col-md-12 {
+  width: 100%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 650px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 770px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 870px;
+}
+

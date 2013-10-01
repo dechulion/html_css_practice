@@ -1,0 +1,19 @@
+body {
+  background-image: url('img/4way.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+a:active {
+	color: red;
+}
+
+a:focus {
+	color: yellow;
+}
+
+input:focus {
+  background-color: yellow;
+}
